@@ -1,27 +1,110 @@
-# AngularEcommerce
+# Angular eCommerce Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.7.
+Welcome to the Angular eCommerce frontend repository. This contains the client-side code for our eCommerce web application. Below, you will find information on how to set up, run, and contribute to this project. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.7.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Development](#development)
+- [Building for Production](#building-for-production)
+- [Contributing](#contributing)
 
-## Code scaffolding
+## Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Before you begin, ensure you have met the following requirements:
 
-## Build
+- **Node.js**: Make sure you have Node.js installed. You can download it [here](https://nodejs.org/).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Getting Started
 
-## Running unit tests
+To get this project up and running, follow these steps:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Clone the repository:**
 
-## Running end-to-end tests
+   ```bash
+   git clone https://github.com/shittu24/ecommerce-frontend.git
+   cd ecommerce-frontend
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Install dependencies:**
 
-## Further help
+   ```bash
+   npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. **Run the development server:**
+
+   ```bash
+   ng serve --open
+
+
+## Features
+
+Our Angular eCommerce frontend provides the following features:
+
+1. **Product Catalog:** Browse and search for products with detailed descriptions, images, and prices.
+
+2. **Shopping Cart:** Add products to your cart, manage quantities, and proceed to checkout.
+
+3. **Responsive Design:** Enjoy a seamless shopping experience on desktop and mobile devices.
+
+
+## Project Structure
+
+Our Angular eCommerce frontend project follows this directory structure:
+
+1. **`src/app`:** Contains the Angular components, modules, and services.
+
+2. **`src/assets`:** Includes static assets like images, styles, and fonts.
+
+3. **`src/environments`:** Configuration files for different environments (e.g., production, development).
+
+4. **`src/index.html`:** The main HTML file that loads the Angular application.
+
+5. **`angular.json`:** Angular CLI configuration file.
+
+6. **`package.json`:** Lists project dependencies and scripts.
+
+7. **`tsconfig.json`:** TypeScript configuration file.
+
+
+## Development
+
+During development, you can use the Angular CLI commands to streamline your workflow:
+
+1. **Generate a new component, service, or module:**
+
+   ```bash
+   ng generate component my-component
+
+2. **Run tests:**
+
+   ```bash
+   ng test
+
+3. **Build application:**
+
+   ```bash
+   ng build
+   
+This will generate a dist/ folder with the production-ready code.
+
+## Building for Production
+
+Before deploying the application to a production server, build it using the following command:
+
+    ```bash
+    ng build --prod
+
+  This will optimize the application for production, and you can find the output in the dist/ directory.
+
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute to this project, please follow these guidelines:
+
+1. Fork the repository and create a new branch.
+
+2. Make your changes.
+
+3. Submit a pull request to the main branch of this repository.
