@@ -101,10 +101,12 @@ Before deploying the application to a production server, build it using the foll
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to this project, please follow these guidelines:
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
-1. Fork the repository and create a new branch.
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and submit a pull request.
+  
 
-2. Make your changes.
-
-3. Submit a pull request to the main branch of this repository.
+## Contact
+For questions or support, please contact [Ibrahim](mailto:ibrahimshittu007@gmail.com).
